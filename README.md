@@ -38,10 +38,10 @@ Toxicity classification models are very scarce for low-resource languages such a
 More details about the methology and data characterization can be found on the published paper.
 
 ### Citation
-This work can be cited in the following bibitex format.
+This work can be cited in the following bibtex format.
 
 
-```bibitex
+```bibtex
 @inproceedings{},
   title={Toxic Content Detection in online social networks: a new dataset from Brazilian Reddit Communities},
   author={},
