@@ -21,14 +21,26 @@ The dataset contains 2,500 manually annotated comments from the most popular bra
 |       Total      	|   390,924 	|    6,589,541 	|
 
 
-### Metrics
-Agreement, groups
+##### Annotation proccess
+
+The annotators were divided into groups of raters and each group received a batch of comments to label. The raters were then asked to label a comment as `Toxic`, `Non-toxic`, `I do not know` and `Missing info`. During the annotation process, the labellers were encouraged to assign one of the uncertain labels when they're not sure about the toxicity of a comment or the context is missing. 
+
+##### Available data
+The dataset is available as `csv` file on the path `dataset/toxicity_br_labeled_data.csv`. The final label was assigned as a majority vote among the raters. The available data are the original collected comment `ID` and `body`. The label was created from the original classification from the annotators. No data processing has been done on this version of the dataset. The overall `schema` of the dataset if presented below.
+
+- `id`: The unique identifier of the comment on the Reddit platform
+- `body`: The original comment text publication
+- `label`: The final label of a given comment
 
 ### Usage
 Toxicity classification models are very scarce for low-resource languages such as Brazilian Portuguese. The goal of this dataset is to foster the experimentation and advancement of applied Machine Learnign techiniques in order to improve existing methods as well as propose new ones. For instance, one can train and benchmark with existing machine learning models from scratch. Also, another alternative is to fine-tune existing large language models.
 
+More details about the methology and data characterization can be found on the published paper.
 
 ### Citation
+This work can be cited in the following bibitex format.
+
+
 ```bibitex
 @inproceedings{},
   title={Toxic Content Detection in online social networks: a new dataset from Brazilian Reddit Communities},
