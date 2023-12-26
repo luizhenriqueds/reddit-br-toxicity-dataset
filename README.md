@@ -30,7 +30,7 @@ The dataset is available as `csv` file on the path `dataset/toxicity_br_labeled_
 
 - `id`: The unique identifier of the comment on the Reddit platform
 - `body`: The original comment text publication
-- `label`: The final label of a given comment
+- `label`: The final label of a given comment. The label is `0` for non-toxic comments, `1` for toxic comments and `-1` for comments where the raters disagreed about the toxicity
 
 ### Usage
 Toxicity classification models are very scarce for low-resource languages such as Brazilian Portuguese. The goal of this dataset is to foster the experimentation and advancement of applied Machine Learnign techiniques in order to improve existing methods as well as propose new ones. For instance, one can train and benchmark with existing machine learning models from scratch. Also, another alternative is to fine-tune existing large language models.
