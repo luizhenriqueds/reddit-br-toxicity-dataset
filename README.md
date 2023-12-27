@@ -1,6 +1,6 @@
 ## **Toxic Content Detection in online social networks: a new dataset from Brazilian Reddit Communities**
 
-This is new dataset of 2,500 manually annotated examples of comments extracted from the top 10 largest Brazilian subreddits on Reddit. The dataset has been annotated by crowd-sourcing efforts with contributions from the departments of computer science (DCC) and the linguistic group @ UFMG. As part of our contribution to the toxicity automatic detection and moderation of online social networks, we're making the dataset public for research.
+This work was accepted by the 16th International Conference on Computational Processing of Portuguese (PROPOR 2024). The paper proposes a new dataset of 2,500 manually annotated examples of comments extracted from the top 10 largest Brazilian subreddits on Reddit. The dataset has been annotated by crowd-sourcing efforts with contributions from the departments of computer science (DCC) and the linguistic group @ UFMG. As part of our contribution to the toxicity automatic detection and moderation of online social networks, we're making the dataset public for research.
 
 ### Dataset
 
@@ -39,17 +39,10 @@ Toxicity classification models are very scarce for low-resource languages such a
 More details about the methology and data characterization can be found on the published paper.
 
 ### Citation
-This work can be cited in the following bibtex format.
+This work can be cited in the following format.
 
-
-```bibtex
-@inproceedings{},
-  title={Toxic Content Detection in online social networks: a new dataset from Brazilian Reddit Communities},
-  author={},
-  booktitle={},
-  pages={},
-  year={2023}
-}
+```cite
+Lima, Q. Luiz Henrique; Pagano, S. Adriana; da Silva, A.P.C. 2024. Toxic Content Detection in online social networks: a new dataset from Brazilian Reddit Communities. 16th International Conference on Computational Processing of Portuguese (PROPOR 2024).
 ```
 
 ### License
